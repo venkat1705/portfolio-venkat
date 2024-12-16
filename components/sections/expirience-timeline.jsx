@@ -1,0 +1,323 @@
+import Image from "next/image";
+import { Timeline } from "../timeline";
+import Container from "./glass-container";
+import { ArrowedTooltip } from "../arrwed-tooltip";
+
+const exprienceStack1 = [
+  {
+    name: "Reactjs",
+    image: "/react.svg",
+  },
+  {
+    name: "Nodejs",
+    image: "/nodejs.svg",
+  },
+  {
+    name: "MongoDB",
+    image: "/mongodb-1.svg",
+  },
+  {
+    name: "GraphQl",
+    image: "/graphql.svg",
+  },
+  {
+    name: "Nextjs",
+    image: "/nextjs.webp",
+  },
+  {
+    name: "Javascript",
+    image: "/javascript.svg",
+  },
+  {
+    name: "Typescript",
+    image: "/typescript.svg",
+  },
+  {
+    name: "HTML5",
+    image: "/html.svg",
+  },
+  {
+    name: "CSS3",
+    image: "/css.svg",
+  },
+];
+const exprienceStack2 = [
+  {
+    name: "Reactjs",
+    image: "/react.svg",
+  },
+  {
+    name: "Nodejs",
+    image: "/nodejs.svg",
+  },
+  {
+    name: "MongoDB",
+    image: "/mongodb-1.svg",
+  },
+
+  {
+    name: "Javascript",
+    image: "/javascript.svg",
+  },
+  {
+    name: "HTML5",
+    image: "/html.svg",
+  },
+  {
+    name: "CSS3",
+    image: "/css.svg",
+  },
+];
+const exprienceStack3 = [
+  {
+    name: "Reactjs",
+    image: "/react.svg",
+  },
+  {
+    name: "Nodejs",
+    image: "/nodejs.svg",
+  },
+  {
+    name: "MongoDB",
+    image: "/mongodb-1.svg",
+  },
+
+  {
+    name: "Javascript",
+    image: "/javascript.svg",
+  },
+  {
+    name: "HTML5",
+    image: "/html.svg",
+  },
+  {
+    name: "CSS3",
+    image: "/css.svg",
+  },
+];
+
+export function ExperienceTimeline() {
+  const data = [
+    {
+      title: "January 2023 - Present",
+      content: (
+        <div>
+          <div>
+            <div>
+              <p className="text-xs md:text-2xl font-medium antialiased tracking-wide">
+                Full Stack Developer
+              </p>
+              <p className="antialiased tracking-wide text-slate-400 ">
+                @C S TECH Infosolutions Pvt Ltd
+              </p>
+            </div>
+            <Image
+              src="/cslogo.png"
+              width={150}
+              height={150}
+              alt="C S TECH"
+              className="mt-3"
+            />
+          </div>
+
+          <div className="mt-6">
+            <ol className="list-disc pl-5">
+              <li className="antialiased tracking-wide">
+                Currently working on developing innovative software solutions.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Implementing cutting-edge technologies to enhance user
+                experience.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Collaborating with cross-functional teams to deliver
+                high-quality products.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Writing clean, scalable, and efficient code for various
+                applications.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Continuously learning and improving to stay ahead in the tech
+                industry.
+              </li>
+            </ol>
+          </div>
+
+          <div className="mt-3 flex items-center flex-wrap gap-3">
+            {exprienceStack1?.map((item, index) => (
+              <Container key={index} className="cursor-pointer">
+                <ArrowedTooltip
+                  trigger={
+                    <Image
+                      src={item.image}
+                      width={30}
+                      height={30}
+                      alt={item.name}
+                      className="cursor-pointer"
+                    />
+                  }
+                  content={
+                    <div className="text-left">
+                      <p className="font-medium capitalize">{item?.name}</p>
+                    </div>
+                  }
+                  side="top"
+                />
+              </Container>
+            ))}
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "January 2023 - July 2023",
+      content: (
+        <div>
+          <div>
+            <div>
+              <p className="text-xs md:text-2xl font-medium antialiased tracking-wide">
+                Full Stack Developer Intern
+              </p>
+              <p className="antialiased tracking-wide text-slate-400 ">
+                @C S TECH Infosolutions Pvt Ltd
+              </p>
+            </div>
+            <Image
+              src="/cslogo.png"
+              width={150}
+              height={150}
+              alt="C S TECH"
+              className="mt-3"
+            />
+          </div>
+
+          <div className="mt-6">
+            <ol className="list-decimal pl-5">
+              <li className="antialiased tracking-wide">
+                Worked as a Full Stack Developer Intern at Images Bazaar.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Implemented payment gateway integrations to enable secure
+                transactions on the website.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Developed features to enhance user experience through seamless
+                checkout processes.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Integrated Elasticsearch for fast and efficient product search
+                functionality.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Collaborated with the development team to optimize the
+                performance of website features and backend services.
+              </li>
+            </ol>
+          </div>
+
+          <div className="mt-3 flex items-center gap-3">
+            {exprienceStack2?.map((item, index) => (
+              <Container key={index} className="cursor-pointer">
+                <ArrowedTooltip
+                  trigger={
+                    <Image
+                      src={item.image}
+                      width={30}
+                      height={30}
+                      alt={item.name}
+                      className="cursor-pointer"
+                    />
+                  }
+                  content={
+                    <div className="text-left">
+                      <p className="font-medium capitalize">{item?.name}</p>
+                    </div>
+                  }
+                  side="top"
+                />
+              </Container>
+            ))}
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "June 2022 - December 2023",
+      content: (
+        <div>
+          <div>
+            <div>
+              <p className="text-xs md:text-2xl font-medium antialiased tracking-wide">
+                Full Stack Developer Intern
+              </p>
+              <p className="antialiased tracking-wide text-slate-400 ">
+                @PROJECT28
+              </p>
+            </div>
+            <Image
+              src="/project28.png"
+              width={150}
+              height={150}
+              alt="C S TECH"
+              className="mt-3"
+            />
+          </div>
+
+          <div className="mt-6">
+            <ol className="list-decimal pl-5">
+              <li className="antialiased tracking-wide">
+                Worked as a Frontend Developer Intern on a canvas-based project.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Developed interactive web features using HTML5 Canvas for
+                dynamic content rendering.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Integrated JavaScript libraries to enhance drawing and animation
+                capabilities.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Utilized technologies such as React, Node.js, and WebSockets for
+                real-time collaboration features.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Collaborated with the design team to implement responsive UI/UX,
+                ensuring compatibility across devices.
+              </li>
+            </ol>
+          </div>
+
+          <div className="mt-3 flex items-center gap-3">
+            {exprienceStack3?.map((item, index) => (
+              <Container key={index} className="cursor-pointer">
+                <ArrowedTooltip
+                  trigger={
+                    <Image
+                      src={item.image}
+                      width={30}
+                      height={30}
+                      alt={item.name}
+                      className="cursor-pointer"
+                    />
+                  }
+                  content={
+                    <div className="text-left">
+                      <p className="font-medium capitalize">{item?.name}</p>
+                    </div>
+                  }
+                  side="top"
+                />
+              </Container>
+            ))}
+          </div>
+        </div>
+      ),
+    },
+  ];
+  return (
+    <div className="w-full">
+      <Timeline data={data} />
+    </div>
+  );
+}
