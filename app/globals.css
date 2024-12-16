@@ -137,33 +137,6 @@ html {
   }
 }
 
-@keyframes borderAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
-}
-
-@layer utilities {
-  .bg-border-gradient {
-    background: conic-gradient(
-      from 90deg at 50% 50%,
-      #1d4ed8 0%,
-      #007aff 50%,
-      #1d4ed8 100%
-    );
-    background-size: 300%;
-    background-clip: border-box;
-    border-radius: inherit;
-  }
-
-  .animate-border {
-    animation: borderAnimation 2s linear infinite;
-  }
-}
-
 ::-webkit-scrollbar {
   width: 6px;
   scrollbar-color: #262626;
