@@ -132,16 +132,6 @@ export default function ProjectSteps() {
   ];
 
   useEffect(() => {
-    const handleScroll = (e) => {
-      e.preventDefault(); // Prevents scroll on re-render
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: false });
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
     const interval = setInterval(() => {
       setActiveStep((prevStep) => (prevStep + 1) % steps.length);
       setProgress(0);
