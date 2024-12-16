@@ -9,9 +9,9 @@ const ProjectSection = () => {
         <MagicBadge title="Projects" />
       </div>
 
-      <div>
+      {/* <div>
         <ProjectSteps />
-      </div>
+      </div> */}
     </div>
   );
 };
