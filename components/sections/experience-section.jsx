@@ -9,9 +9,9 @@ const Experience = () => {
         <MagicBadge title="Exprience" />
       </div>
 
-      <div className="">
+      {/* <div className="">
         <ExperienceTimeline />
-      </div>
+      </div> */}
     </div>
   );
 };
