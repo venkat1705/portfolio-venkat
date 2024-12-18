@@ -14,9 +14,9 @@ export default function Home() {
     <div className="overflow-x-hidden scrollbar-hide size-full">
       <HeroSection />
 
-      {/* <AnimationContainer delay={0.5}>
+      <AnimationContainer delay={0.1}>
         <ServicesSection />
-      </AnimationContainer> */}
+      </AnimationContainer>
 
       <AnimationContainer delay={0.2}>
         <Experience />

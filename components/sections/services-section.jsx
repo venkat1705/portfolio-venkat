@@ -3,7 +3,7 @@ import ServiceCard from "./service-card";
 
 const ServicesSection = () => {
   return (
-    <div className="py-20" id="#services">
+    <div className="py-40" id="#services">
       <div className="flex items-center justify-center flex-col">
         <MagicBadge title="Services" />
       </div>
