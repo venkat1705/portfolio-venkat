@@ -194,7 +194,7 @@ export default function ServiceCard() {
   };
 
   return (
-    <div className=" py-12 px-4 sm:px-6 ">
+    <div className=" py-12 ">
       <motion.div
         variants={containerVariants}
         initial="hidden"

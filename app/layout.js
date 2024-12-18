@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
   bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)]"
           />
           <Navbar />
-          <div className="lg:px-28 px-4 py-6 max-w-screen-2xl relative z-50">
+          <div className="lg:px-28 px-3 md:px-6 py-6 max-w-screen-2xl relative z-50">
             {children}
           </div>
         </ThemeProvider>

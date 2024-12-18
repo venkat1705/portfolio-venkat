@@ -60,6 +60,10 @@ const exprienceStack2 = [
     image: "/javascript.svg",
   },
   {
+    name: "GraphQl",
+    image: "/graphql.svg",
+  },
+  {
     name: "HTML5",
     image: "/html.svg",
   },
@@ -80,6 +84,10 @@ const exprienceStack3 = [
   {
     name: "MongoDB",
     image: "/mongodb-1.svg",
+  },
+  {
+    name: "GraphQl",
+    image: "/graphql.svg",
   },
 
   {
@@ -217,7 +225,7 @@ export function ExperienceTimeline() {
             </ol>
           </div>
 
-          <div className="mt-3 flex items-center gap-3">
+          <div className="mt-3 flex items-center flex-wrap gap-3">
             {exprienceStack3?.map((item, index) => (
               <Container key={index} className="cursor-pointer">
                 <ArrowedTooltip

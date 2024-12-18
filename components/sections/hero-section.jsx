@@ -6,17 +6,17 @@ import { TypewriterEffect } from "./hero-writer";
 const HeroSection = () => {
   return (
     <AnimationContainer className="flex flex-col items-center justify-center w-full text-center py-10">
-      <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-4xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
+      <h1 className="text-foreground text-center py-6 text-4xl font-medium tracking-normal text-balance sm:text-4xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
         Hello there, I am
         <br />
-        <p className="text-transparent bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-block h-full text-2xl lg:text-8xl">
+        <p className="text-transparent bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-block h-full text-4xl lg:text-8xl mt-4 lg:mt-0">
           Venkat M
         </p>
       </h1>
-      <p className="mb-12  tracking-wide text-muted-foreground md:text-xl text-balance">
+      <p className="mb-12  tracking-wide text-muted-foreground lg:text-center md:text-xl text-balance">
         creative thinker and passionate about turning challenges into
-        opportunities, <br className="hidden md:block" />
-        <span className="hidden md:block">
+        opportunities,
+        <span className="">
           With expertise in{" "}
           <span className="text-transparent bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-block">
             FullStack Development

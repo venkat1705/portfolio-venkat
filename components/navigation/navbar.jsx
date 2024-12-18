@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        "sticky top-0 inset-x-0 h-16 w-full z-[99999] select-none lg:px-28 px-6 flex items-center",
+        "sticky top-0 inset-x-0 h-16 w-full z-[99999] select-none lg:px-28 md:px-6 px-3 flex items-center",
         scroll && "border-input bg-background/60 backdrop-blur-md border-b "
       )}
     >
@@ -43,15 +43,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-full">
           <div className="flex items-center space-x-12">
             <Link href="/">
-              <span className="text-transparent text-3xl font-semibold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-bloc">
+              <span className="text-transparent text-xl lg:text-3xl font-semibold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-bloc">
                 Venkat M
               </span>
             </Link>
           </div>
 
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <NavigationMenuNav />
-          </div>
+          </div> */}
 
           <div className="lg:flex items-center gap-3 hidden">
             <div>
@@ -64,8 +64,19 @@ const Navbar = () => {
               <MagicButton title="Download CV" icon={<DownloadCloudIcon />} />
             </a>
           </div>
+          <div className="lg:hidden items-center gap-3 flex ">
+            <div>
+              <AnimatedButton
+                name="Connect"
+                href="https://api.whatsapp.com/send?phone=919347653480"
+              />
+            </div>
+            <a href="/resume.pdf" download>
+              <MagicButton title="CV" icon={<DownloadCloudIcon />} />
+            </a>
+          </div>
 
-          <NavbarSheet />
+          {/* <NavbarSheet /> */}
         </div>
 
         {/* <MobileNavbar /> */}
