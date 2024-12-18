@@ -14,28 +14,28 @@ export default function Home() {
     <div className="overflow-x-hidden scrollbar-hide size-full">
       <HeroSection />
 
-      <AnimationContainer delay={0.5}>
+      {/* <AnimationContainer delay={0.5}>
         <ServicesSection />
-      </AnimationContainer>
-
-      {/* <AnimationContainer delay={0.2}>
-        <Experience />
       </AnimationContainer> */}
+
+      <AnimationContainer delay={0.2}>
+        <Experience />
+      </AnimationContainer>
       <AnimationContainer delay={0.4}>
         <SkillsSection />
       </AnimationContainer>
 
-      {/* <AnimationContainer delay={0.3}>
+      <AnimationContainer delay={0.3}>
         <ProjectSection />
-      </AnimationContainer> */}
+      </AnimationContainer>
 
-      {/* <div id="contact">
+      <div id="contact">
         <ContactMe />
       </div>
 
       <div>
         <TextHoverEffect text="VENKAT" />
-      </div> */}
+      </div>
     </div>
   );
 }
