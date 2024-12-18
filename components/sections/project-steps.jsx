@@ -170,7 +170,7 @@ export default function ProjectSteps() {
   };
 
   return (
-    <div className="py-12 px-4 sm:px-6 lg:px-8">
+    <div className="py-12 px-4 sm:px-6 lg:px-8 h-full">
       <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center h-full">
         <motion.div
           variants={containerVariants}
