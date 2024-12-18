@@ -25,9 +25,9 @@ export default function Home() {
         <SkillsSection />
       </AnimationContainer>
 
-      <AnimationContainer delay={0.3}>
+      {/* <AnimationContainer delay={0.3}>
         <ProjectSection />
-      </AnimationContainer>
+      </AnimationContainer> */}
 
       <div id="contact">
         <ContactMe />
