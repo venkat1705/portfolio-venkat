@@ -14,7 +14,7 @@ import MagicButton from "../magic-button";
 import { DownloadCloudIcon, MenuIcon } from "lucide-react";
 import { NavbarSheet } from "./navbar-sheet";
 
-const Navbar = ({ session }) => {
+const Navbar = () => {
   const [scroll, setScroll] = useState(false);
 
   const handleScroll = () => {
