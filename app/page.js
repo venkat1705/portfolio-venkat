@@ -14,12 +14,20 @@ export default function Home() {
     <div className="overflow-x-hidden size-full h-full">
       <HeroSection />
 
-      <ServicesSection />
+      <AnimationContainer delay={0.1}>
+        <ServicesSection />
+      </AnimationContainer>
 
-      <Experience />
-      <SkillsSection />
+      <AnimationContainer delay={0.2}>
+        <Experience />
+      </AnimationContainer>
+      <AnimationContainer delay={0.1}>
+        <SkillsSection />
+      </AnimationContainer>
 
-      <ProjectSection />
+      <AnimationContainer delay={0.3}>
+        <ProjectSection />
+      </AnimationContainer>
 
       <div id="contact">
         <ContactMe />

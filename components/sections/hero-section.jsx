@@ -5,7 +5,7 @@ import { TypewriterEffect } from "./hero-writer";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full text-center py-10">
+    <AnimationContainer className="flex flex-col items-center justify-center w-full text-center py-10">
       <h1 className="text-foreground text-center py-6 text-5xl font-medium tracking-normal text-balance sm:text-4xl md:text-7xl lg:text-8xl !leading-[1.15] w-full font-heading">
         Hello there, I am
         <br />
@@ -30,7 +30,7 @@ const HeroSection = () => {
           href="https://api.whatsapp.com/send?phone=919347653480"
         />
       </div>
-    </div>
+    </AnimationContainer>
   );
 };
 
