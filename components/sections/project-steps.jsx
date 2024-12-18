@@ -170,7 +170,7 @@ export default function ProjectSteps() {
   };
 
   return (
-    <div className="py-12 h-full">
+    <div className="py-12 h-full w-full">
       <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center h-full">
         <motion.div
           variants={containerVariants}
@@ -207,7 +207,7 @@ export default function ProjectSteps() {
                     {step.description}
                   </p>
 
-                  <div className="mt-3 flex items-center gap-3">
+                  <div className="mt-3 flex items-center gap-3 flex-wrap">
                     {step?.techStack?.map((item, index) => (
                       <Container key={index} className="cursor-pointer">
                         <ArrowedTooltip
