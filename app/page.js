@@ -18,7 +18,7 @@ export default function Home() {
         <ServicesSection />
       </AnimationContainer>
 
-      <AnimationContainer delay={0.2}>
+      {/* <AnimationContainer delay={0.2}>
         <Experience />
       </AnimationContainer>
       <AnimationContainer delay={0.4}>
@@ -27,7 +27,7 @@ export default function Home() {
 
       <AnimationContainer delay={0.3}>
         <ProjectSection />
-      </AnimationContainer>
+      </AnimationContainer> */}
 
       {/* <div id="contact">
         <ContactMe />
