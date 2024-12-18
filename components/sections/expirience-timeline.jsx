@@ -170,78 +170,7 @@ export function ExperienceTimeline() {
         </div>
       ),
     },
-    {
-      title: "January 2023 - July 2023",
-      content: (
-        <div>
-          <div>
-            <div>
-              <p className="text-xs md:text-2xl font-medium antialiased tracking-wide">
-                Full Stack Developer Intern
-              </p>
-              <p className="antialiased tracking-wide text-slate-400 ">
-                @C S TECH Infosolutions Pvt Ltd
-              </p>
-            </div>
-            <Image
-              src="/cslogo.png"
-              width={150}
-              height={150}
-              alt="C S TECH"
-              className="mt-3"
-            />
-          </div>
 
-          <div className="mt-6">
-            <ol className="list-decimal pl-5">
-              <li className="antialiased tracking-wide">
-                Worked as a Full Stack Developer Intern at Images Bazaar.
-              </li>
-              <li className="antialiased tracking-wide mt-1">
-                Implemented payment gateway integrations to enable secure
-                transactions on the website.
-              </li>
-              <li className="antialiased tracking-wide mt-1">
-                Developed features to enhance user experience through seamless
-                checkout processes.
-              </li>
-              <li className="antialiased tracking-wide mt-1">
-                Integrated Elasticsearch for fast and efficient product search
-                functionality.
-              </li>
-              <li className="antialiased tracking-wide mt-1">
-                Collaborated with the development team to optimize the
-                performance of website features and backend services.
-              </li>
-            </ol>
-          </div>
-
-          <div className="mt-3 flex items-center gap-3">
-            {exprienceStack2?.map((item, index) => (
-              <Container key={index} className="cursor-pointer">
-                <ArrowedTooltip
-                  trigger={
-                    <Image
-                      src={item.image}
-                      width={30}
-                      height={30}
-                      alt={item.name}
-                      className="cursor-pointer"
-                    />
-                  }
-                  content={
-                    <div className="text-left">
-                      <p className="font-medium capitalize">{item?.name}</p>
-                    </div>
-                  }
-                  side="top"
-                />
-              </Container>
-            ))}
-          </div>
-        </div>
-      ),
-    },
     {
       title: "June 2022 - December 2023",
       content: (

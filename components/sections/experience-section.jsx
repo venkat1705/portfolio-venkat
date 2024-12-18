@@ -4,7 +4,7 @@ import { ExperienceTimeline } from "./expirience-timeline";
 
 const Experience = () => {
   return (
-    <div className="py-20" id="experience">
+    <div className="py-0" id="experience">
       <div className="flex items-center justify-center flex-col">
         <MagicBadge title="Exprience" />
       </div>

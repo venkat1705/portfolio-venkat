@@ -11,7 +11,7 @@ import { TextHoverEffect } from "@/components/text-hover-effect";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden scrollbar-hide size-full">
+    <div className="overflow-x-hidden size-full">
       <HeroSection />
 
       <AnimationContainer delay={0.1}>
@@ -25,9 +25,9 @@ export default function Home() {
         <SkillsSection />
       </AnimationContainer>
 
-      {/* <AnimationContainer delay={0.3}>
+      <AnimationContainer delay={0.3}>
         <ProjectSection />
-      </AnimationContainer> */}
+      </AnimationContainer>
 
       <div id="contact">
         <ContactMe />
