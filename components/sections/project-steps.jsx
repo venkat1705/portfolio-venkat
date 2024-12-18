@@ -207,7 +207,7 @@ export default function ProjectSteps() {
                     {step.description}
                   </p>
 
-                  {/* <div className="mt-3 flex items-center gap-3">
+                  <div className="mt-3 flex items-center gap-3">
                     {step?.techStack?.map((item, index) => (
                       <Container key={index} className="cursor-pointer">
                         <ArrowedTooltip
@@ -231,7 +231,7 @@ export default function ProjectSteps() {
                         />
                       </Container>
                     ))}
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </motion.div>
