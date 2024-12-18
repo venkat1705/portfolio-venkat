@@ -253,6 +253,7 @@ export default function ProjectSteps() {
               transition={{ duration: 0.3 }}
               className="space-y-4"
             >
+              {/* hkjdiq */}
               {steps?.map((item, index) => {
                 if (activeStep === index) {
                   return (
