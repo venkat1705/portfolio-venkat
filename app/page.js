@@ -12,7 +12,7 @@ import { TextHoverEffect } from "@/components/text-hover-effect";
 export default function Home() {
   return (
     <div className="overflow-x-hidden size-full h-full">
-      {/* <HeroSection /> */}
+      <HeroSection />
 
       <ServicesSection />
 

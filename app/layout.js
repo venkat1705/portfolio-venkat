@@ -65,11 +65,11 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         >
-          {/* <div
+          <div
             className="absolute inset-0 h-full bg-[size:3rem_3rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)] 
   bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)]"
           />
-          <Navbar /> */}
+          <Navbar />
           <div className="lg:px-28 px-4 py-6 max-w-screen-2xl relative z-50">
             {children}
           </div>
