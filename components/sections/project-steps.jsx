@@ -207,7 +207,7 @@ export default function ProjectSteps() {
                     {step.description}
                   </p>
 
-                  <div className="mt-3 flex items-center gap-3">
+                  {/* <div className="mt-3 flex items-center gap-3">
                     {step?.techStack?.map((item, index) => (
                       <Container key={index} className="cursor-pointer">
                         <ArrowedTooltip
@@ -231,7 +231,7 @@ export default function ProjectSteps() {
                         />
                       </Container>
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </motion.div>
@@ -259,7 +259,7 @@ export default function ProjectSteps() {
                     <React.Fragment key={index}>
                       <div className="relative  rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl h-full">
                         <img
-                          src={item.image}
+                          src="https://startup-template-sage.vercel.app/hero-dark.png"
                           alt={item.title}
                           className="w-full h-auto object-cover rounded-md"
                         />
