@@ -6,7 +6,7 @@ export function TypewriterEffect() {
   const words = ["Venkat M", "FullStack Dev", "Freelancer", "Web3 Enthusiast"];
 
   return (
-    <div className=" flex justify-center items-center mx-auto w-full max-w-5xl scrollbar-hide h-full">
+    <div className=" flex justify-center items-center mx-auto w-full scrollbar-hide h-full">
       <FlipWords words={words} />
     </div>
   );

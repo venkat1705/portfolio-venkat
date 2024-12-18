@@ -39,35 +39,37 @@ const Navbar = () => {
         scroll && "border-input bg-background/60 backdrop-blur-md border-b "
       )}
     >
-      <div className="flex items-center justify-between h-full">
-        <div className="flex items-center space-x-12">
-          <Link href="/">
-            <span className="text-transparent text-3xl font-semibold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-bloc">
-              Venkat M
-            </span>
-          </Link>
-        </div>
-
-        <div className="hidden md:block">
-          <NavigationMenuNav />
-        </div>
-
-        <div className="lg:flex items-center gap-3 hidden">
-          <div>
-            <AnimatedButton
-              name="Let's Connect"
-              href="https://api.whatsapp.com/send?phone=919347653480"
-            />
+      <AnimationContainer reverse delay={0.1} className="size-full">
+        <div className="flex items-center justify-between h-full">
+          <div className="flex items-center space-x-12">
+            <Link href="/">
+              <span className="text-transparent text-3xl font-semibold bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-bloc">
+                Venkat M
+              </span>
+            </Link>
           </div>
-          <a href="/resume.pdf" download>
-            <MagicButton title="Download CV" icon={<DownloadCloudIcon />} />
-          </a>
+
+          <div className="hidden md:block">
+            <NavigationMenuNav />
+          </div>
+
+          <div className="lg:flex items-center gap-3 hidden">
+            <div>
+              <AnimatedButton
+                name="Let's Connect"
+                href="https://api.whatsapp.com/send?phone=919347653480"
+              />
+            </div>
+            <a href="/resume.pdf" download>
+              <MagicButton title="Download CV" icon={<DownloadCloudIcon />} />
+            </a>
+          </div>
+
+          <NavbarSheet />
         </div>
 
-        <NavbarSheet />
-      </div>
-
-      {/* <MobileNavbar /> */}
+        {/* <MobileNavbar /> */}
+      </AnimationContainer>
     </header>
   );
 };

@@ -50,7 +50,7 @@ export const FlipWords = ({ words, duration = 3000, className }) => {
           position: "absolute",
         }}
         className={cn(
-          "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2 max-w-full scrollbar-hide",
+          "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2 max-w-full",
           className
         )}
         key={currentWord}
@@ -76,7 +76,7 @@ export const FlipWords = ({ words, duration = 3000, className }) => {
                   delay: wordIndex * 0.3 + letterIndex * 0.05,
                   duration: 0.2,
                 }}
-                className="text-transparent bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-block h-full max-w-lg scrollbar-hide text-2xl lg:text-8xl"
+                className="text-transparent bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text inline-block h-full text-2xl lg:text-8xl"
               >
                 {letter}
               </motion.span>
