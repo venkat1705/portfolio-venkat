@@ -253,14 +253,13 @@ export default function ProjectSteps() {
               transition={{ duration: 0.3 }}
               className="space-y-4"
             >
-              {/* hkjdiq */}
               {steps?.map((item, index) => {
                 if (activeStep === index) {
                   return (
                     <React.Fragment key={index}>
                       <div className="relative  rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl h-full">
                         <img
-                          src="https://startup-template-sage.vercel.app/hero-dark.png"
+                          src={item.image}
                           alt={item.title}
                           className="w-full h-auto object-cover rounded-md"
                         />
