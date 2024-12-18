@@ -29,13 +29,13 @@ export default function Home() {
         <ProjectSection />
       </AnimationContainer>
 
-      <div id="contact">
+      {/* <div id="contact">
         <ContactMe />
       </div>
 
       <div>
         <TextHoverEffect text="VENKAT" />
-      </div>
+      </div> */}
     </div>
   );
 }
