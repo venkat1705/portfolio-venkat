@@ -18,12 +18,12 @@ export default function Home() {
         <ServicesSection />
       </AnimationContainer>
 
-      <AnimationContainer delay={0.2}>
+      {/* <AnimationContainer delay={0.2}>
         <Experience />
-      </AnimationContainer>
-      {/* <AnimationContainer delay={0.4}>
-        <SkillsSection />
       </AnimationContainer> */}
+      <AnimationContainer delay={0.4}>
+        <SkillsSection />
+      </AnimationContainer>
 
       {/* <AnimationContainer delay={0.3}>
         <ProjectSection />
