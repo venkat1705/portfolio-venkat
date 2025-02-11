@@ -91,6 +91,30 @@ export default function SkillCard() {
       name: "Docker",
       image: "/docker.svg",
     },
+    {
+      name: "Solidity",
+      image: "/solidity.svg",
+    },
+    {
+      name: "IPFS",
+      image: "/ipfs.svg",
+    },
+    {
+      name: "Chainlink",
+      image: "/chainlink.svg",
+    },
+    {
+      name: "Polygon",
+      image: "/polygon.svg",
+    },
+    {
+      name: "Hyperledger Fabric",
+      image: "/hyperledger.svg",
+    },
+    {
+      name: "Hardhat",
+      image: "/hardhat.svg",
+    },
   ];
 
   const containerVariants = {

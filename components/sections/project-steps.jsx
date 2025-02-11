@@ -129,6 +129,52 @@ export default function ProjectSteps() {
         },
       ],
     },
+
+    {
+      icon: Zap,
+      title: "Polytokens",
+      description:
+        "Polytokens is a cutting-edge marketplace designed for creators and collectors to mint, trade, and showcase NFTs seamlessly. Built on Polygon, it leverages IPFS for decentralized storage and Hardhat for smart contract development, ensuring a secure and scalable Web3 experience.",
+      image: "NFT.png",
+      techStack: [
+        {
+          name: "Nodejs",
+          image: "/nodejs.svg",
+        },
+        {
+          name: "MongoDB",
+          image: "/mongodb-1.svg",
+        },
+        {
+          name: "Nextjs",
+          image: "/nextjs.webp",
+        },
+        {
+          name: "Javascript",
+          image: "/javascript.svg",
+        },
+        {
+          name: "Tailwind CSS",
+          image: "/tailwindcss.svg",
+        },
+        {
+          name: "HTML5",
+          image: "/html.svg",
+        },
+        {
+          name: "Polygon",
+          image: "/polygon.svg",
+        },
+        {
+          name: "IPFS",
+          image: "/ipfs.svg",
+        },
+        {
+          name: "Hardhat",
+          image: "/hardhat.svg",
+        },
+      ],
+    },
   ];
 
   useEffect(() => {

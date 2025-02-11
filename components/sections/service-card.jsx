@@ -9,6 +9,7 @@ import {
   FolderCode,
   FramerIcon,
   Lightbulb,
+  LinkIcon,
   WatchIcon,
   Wrench,
 } from "lucide-react";
@@ -150,6 +151,35 @@ export default function ServiceCard() {
         {
           name: "Threejs",
           image: "/Threejs.svg",
+        },
+      ],
+    },
+    {
+      icon: LinkIcon,
+      title: "Web3 Technologies",
+      description:
+        "I specialize in building decentralized and enterprise-grade blockchain solutions using cutting-edge Web3 technologies. By integrating Hyperledger for enterprise blockchain applications, Oracle Blockchain for secure and scalable solutions, and Chainlink for reliable smart contract oracles, I ensure robust, transparent, and efficient decentralized systems. From smart contracts to decentralized identity management, my expertise covers a wide range of blockchain use cases.",
+      skills: [
+        {
+          name: "Hyperledger Fabric",
+          image: "/hyperledger.svg",
+        },
+        {
+          name: "Chainlink",
+          image: "/chainlink.svg",
+        },
+
+        {
+          name: "IPFS",
+          image: "/ipfs.svg",
+        },
+        {
+          name: "Solidity",
+          image: "/solidity.svg",
+        },
+        {
+          name: "POlygon Chain",
+          image: "/polygon.svg",
         },
       ],
     },

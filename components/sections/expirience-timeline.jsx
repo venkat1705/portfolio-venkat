@@ -103,11 +103,139 @@ const exprienceStack3 = [
     image: "/css.svg",
   },
 ];
+const exprienceStack4 = [
+  {
+    name: "Reactjs",
+    image: "/react.svg",
+  },
+  {
+    name: "Nodejs",
+    image: "/nodejs.svg",
+  },
+  {
+    name: "MongoDB",
+    image: "/mongodb-1.svg",
+  },
+  {
+    name: "GraphQl",
+    image: "/graphql.svg",
+  },
+
+  {
+    name: "Javascript",
+    image: "/javascript.svg",
+  },
+  {
+    name: "HTML5",
+    image: "/html.svg",
+  },
+  {
+    name: "CSS3",
+    image: "/css.svg",
+  },
+  {
+    name: "Solidity",
+    image: "/solidity.svg",
+  },
+  {
+    name: "IPFS",
+    image: "/ipfs.svg",
+  },
+  {
+    name: "Chainlink",
+    image: "/chainlink.svg",
+  },
+  {
+    name: "Polygon",
+    image: "/polygon.svg",
+  },
+  {
+    name: "Hyperledger Fabric",
+    image: "/hyperledger.svg",
+  },
+  {
+    name: "Hardhat",
+    image: "/hardhat.svg",
+  },
+];
 
 export function ExperienceTimeline() {
   const data = [
     {
-      title: "January 2023 - Present",
+      title: "January 2025 - Present",
+      content: (
+        <div>
+          <div>
+            <div>
+              <p className="text-xs md:text-2xl font-medium antialiased tracking-wide">
+                Full Stack & Web3 Developer
+              </p>
+              <p className="antialiased tracking-wide text-slate-400 ">
+                @Sumeru Digital Solutions
+              </p>
+            </div>
+            <Image
+              src="/sumeru.png"
+              width={150}
+              height={150}
+              alt="Sumeru Digital"
+              className="mt-3"
+            />
+          </div>
+
+          <div className="mt-6">
+            <ol className="list-disc pl-5">
+              <li className="antialiased tracking-wide">
+                Building scalable and secure full-stack applications with modern
+                frameworks.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Developing and deploying smart contracts on blockchain networks
+                for Web3 applications.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Integrating decentralized technologies to enhance security and
+                transparency.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Collaborating with cross-functional teams to create seamless
+                user experiences.
+              </li>
+              <li className="antialiased tracking-wide mt-1">
+                Continuously exploring emerging Web3 and full-stack technologies
+                to drive innovation.
+              </li>
+            </ol>
+          </div>
+
+          <div className="mt-3 flex items-center flex-wrap gap-3">
+            {exprienceStack4?.map((item, index) => (
+              <Container key={index} className="cursor-pointer">
+                <ArrowedTooltip
+                  trigger={
+                    <Image
+                      src={item.image}
+                      width={30}
+                      height={30}
+                      alt={item.name}
+                      className="cursor-pointer"
+                    />
+                  }
+                  content={
+                    <div className="text-left">
+                      <p className="font-medium capitalize">{item?.name}</p>
+                    </div>
+                  }
+                  side="top"
+                />
+              </Container>
+            ))}
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "January 2023 - December 2024",
       content: (
         <div>
           <div>

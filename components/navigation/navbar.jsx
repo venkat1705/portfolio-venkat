@@ -60,7 +60,7 @@ const Navbar = () => {
                 href="https://api.whatsapp.com/send?phone=919347653480"
               />
             </div>
-            <a href="/resume.pdf" download>
+            <a href="/resume_1.pdf" download>
               <MagicButton title="Download CV" icon={<DownloadCloudIcon />} />
             </a>
           </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 href="https://api.whatsapp.com/send?phone=919347653480"
               />
             </div>
-            <a href="/resume.pdf" download>
+            <a href="/resume_1.pdf" download>
               <MagicButton title="CV" icon={<DownloadCloudIcon />} />
             </a>
           </div>
